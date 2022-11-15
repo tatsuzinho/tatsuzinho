@@ -1,7 +1,7 @@
 # 📖 Bem Vindos(a)
-* Olá, me chamo chamo Arthir e tenho 18 anos. Sou focado em fazer prejetos legais para o discord.
-* No momento, estou praticado e reconhecimento de linguagens da programação, como: javascript.
-* Estou Desenvolvendo a [Olia](https://discord.com/api/oauth2/authorize?client_id=1037029929390460979&permissions=8&scope=bot), ela é um bot focado em ajuda pessoas que não estão conseguindo crescer seu servidor.
+Olá, me chamo chamo Arthir e tenho 18 anos. Sou focado em fazer prejetos legais para o discord.
+No momento, estou praticado e reconhecimento de linguagens da programação, como: javascript.
+Estou Desenvolvendo a [Olia](https://discord.com/api/oauth2/authorize?client_id=1037029929390460979&permissions=8&scope=bot), ela é um bot focado em ajuda pessoas que não estão conseguindo crescer seu servidor.
 
   <div>
     <h6>Linguagens</h6>
