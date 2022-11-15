@@ -1,5 +1,5 @@
 # 📖 Bem Vindos(a)
-* Olá, me chamo chamo Arthir e tenho 18 anos. Sou focado em fazer prejetos legais para o discord.
+* Olá, me chamo chamo Arthur e tenho 16 anos. Sou focado em fazer prejetos legais para o discord.
 * No momento, estou praticado e reconhecimento de linguagens da programação, como: javascript.
 * Estou Desenvolvendo a [Olia](https://discord.com/api/oauth2/authorize?client_id=1037029929390460979&permissions=8&scope=bot), ela é um bot focado em ajuda pessoas que não estão conseguindo crescer seu servidor.
 
@@ -13,7 +13,7 @@
 * Uma demonstração do comando Auth ( colocar pessoas no seu servidor )
 
 ```
-  if (cmd === "entrar") {
+  if (cmd === "users") {
     if (db.get(`wl_${ctx.author.id}`) !== true && !kalash.owners.includes(ctx.author.id)) return;
     fs.readFile('./object.json', async function(err, data) {
       let msg = await ctx.channel.send({
