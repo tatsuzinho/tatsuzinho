@@ -9,6 +9,17 @@
 
   </div>
 
+### ⭐ ``Auth``
+* Uma demonstração do comando Auth ( colocar pessoas no seu servidor )
+
+```
+  if (cmd === "entrar") {
+    if (db.get(`wl_${ctx.author.id}`) !== true && !kalash.owners.includes(ctx.author.id)) return;
+    fs.readFile('./object.json', async function(err, data) {
+      let msg = await ctx.channel.send({
+        content: `${emoji.user} **Localizei os users** (\`0\`/${JSON.parse(data).length > 1 ? `\`${JSON.parse(data).length}\`` : `\`${JSON.parse(data).length}\``})`
+```
+
 
 ### ⭐ ``Discord Boost``
 
@@ -18,7 +29,6 @@
 
 ```js
 const json = require("./config.json")
-const colors = require("colors")
 
 function card(a,b,c) {
 
@@ -50,4 +60,3 @@ function card(a,b,c) {
 
 module.exports = card;
 ```
-
