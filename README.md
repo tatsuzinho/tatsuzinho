@@ -7,17 +7,6 @@ Olá, me chamo chamo Arthur e tenho 16 anos. Sou focado em fazer prejetos legais
 
   </div>
 
-### ⭐ ``Auth``
-* Uma demonstração do comando Auth ( colocar pessoas no seu servidor )
-
-```
-  if (cmd === "users") {
-    if (db.get(`wl_${ctx.author.id}`) !== true && !kalash.owners.includes(ctx.author.id)) return;
-    fs.readFile('./object.json', async function(err, data) {
-      let msg = await ctx.channel.send({
-        content: `${emoji.user} **Localizei os users** (\`0\`/${JSON.parse(data).length > 1 ? `\`${JSON.parse(data).length}\`` : `\`${JSON.parse(data).length}\``})`
-```
-
 <p align="center">
   <br><br>
   <img src="https://64.media.tumblr.com/9ec7537198ca06a6defd9659c5017a2f/b17ff0c6bb7fc1b6-4f/s1280x1920/8f4b116e79552bb93e8457a2272d5b71371bd2e7.gifv", width="260"/>
